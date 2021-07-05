@@ -65,6 +65,34 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.wraper0{
+  width: 100%;
+  height: 330px;
+  background: #000;
+  display: flex;
+}
+
+.div-1{
+  width: calc( 57% - 40px) ;
+  height: 100%;
+  background: #232428;
+}
+
+.div-2{
+  width: calc( 50% + 40px );
+  height: 100%;
+  background-image: linear-gradient(to right, #E73681 0%, #6B21BA  100%) !important;
+  border-left: 180px solid #232428;
+  border-bottom: 330px solid transparent;
+  box-sizing: border-box;
+}
+
+.content0{
+  color: white;
+  font-size: 16px;
+  padding: 15px;
+}
+
 .swip{
   margin-bottom: auto !important;
   height: 77% !important; 
@@ -73,10 +101,10 @@ body {
 }
 
 .get-it{
-  position: absolute;
+ /* position: absolute;*/
   color: white;
   font-weight: 800;
-  padding: 5% 41%;
+  padding: 5% 39%;
 }
 .start{
   width: 135px;
@@ -3377,13 +3405,34 @@ textarea.form-control-lg {
 
  .bttn4{
   margin-left: 39%;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
+   margin-left: auto; 
+   margin-right: auto; 
   width: 305px;
-  position: absolute;
-  /* margin-right: 158px; */
-  margin-top: 12%;
+  /*position: absolute;
+   margin-right: 158px; 
+  margin-top: 12%;*/
  }
+
+ .section0{
+ 
+   transform: translate(-50%, -50%);
+   height: 400px;
+   width: 1200px;
+   background-color: #191c1f;
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+   display: flex;
+ }
+
+ 
+
+.imagebox{
+  width: calc(50% + 50px);
+  height: 100%;
+  background-color: wheat;
+  border-left: 100px solid #191c1f ;
+  border-bottom: 400px solid transparent;
+}
+
 
 .btn-primary:hover {
   color: #fff;
