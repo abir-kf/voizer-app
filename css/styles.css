@@ -72,6 +72,12 @@ body {
   margin-top: auto !important;
 }
 
+.get-it{
+  position: absolute;
+  color: white;
+  font-weight: 800;
+  padding: 5% 41%;
+}
 .start{
   width: 135px;
   margin-left: auto !important;
@@ -3287,6 +3293,25 @@ textarea.form-control-lg {
 
 
 
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 350px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+  background-color:#232428 ;
+}
+.two {
+  grid-column: 2;
+  grid-row: 1;
+  background-image: linear-gradient(to right, #E73681 0%, #6B21BA  100%);
+
+}
+
 .btn-grad {
   background-image: linear-gradient(to right, #E73681 0%, #6B21BA  100%);
 }
@@ -3351,7 +3376,13 @@ textarea.form-control-lg {
 
 
  .bttn4{
-   width: 305px;
+  margin-left: 39%;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  width: 305px;
+  position: absolute;
+  /* margin-right: 158px; */
+  margin-top: 12%;
  }
 
 .btn-primary:hover {
